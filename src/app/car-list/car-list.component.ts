@@ -23,7 +23,7 @@ export class CarListComponent implements OnInit {
   };
 
   getYil(i:number) {
-    return this.cars[i].ücret;
+    return this.cars[i];
   }
 
 
